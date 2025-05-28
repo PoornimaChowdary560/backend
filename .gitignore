@@ -1,0 +1,9 @@
+
+.env
+__pycache__/
+env/
+*.pyc
+media/
+generated_reports/
+node_modules/
+

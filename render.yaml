@@ -11,10 +11,6 @@ services:
       - key: SECRET_KEY
         generateValue: true
       - key: DATABASE_URL
-        fromDatabase:
-          name: ai-bias-db
-          property: connectionString
-
-databases:
-  - name: ai-bias-db
-    plan: free
+        value: postgresql://bias_database_owner:npg_FRIWYb6cd9xO@ep-frosty-math-a1ppdasj-pooler.ap-southeast-1.aws.neon.tech/bias_database?sslmode=require
+      - key: FRONTEND_URL
+        value: https://ai-bias-detector-coral.vercel.app

@@ -69,6 +69,7 @@ CORS_ALLOWED_ORIGINS=[
     config('FRONTEND_URL'),
 ]
 
+CORS_ALLOW_CREDENTIALS = True  # Optional but helpful
 
 ROOT_URLCONF = 'backend.urls'
 

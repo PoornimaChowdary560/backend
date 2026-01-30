@@ -113,6 +113,10 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 
 ---
 
-## 📬 Contact
+## Contact
 
-For inquiries or support, please contact the development team or project maintainer.
+If you have questions or want to collaborate:
+
+GitHub: PoornimaChowdary560
+
+Email: poornimamaddipati22@gmail.com.com
